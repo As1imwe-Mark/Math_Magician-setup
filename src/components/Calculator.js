@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+import Operators from './Operators';
 
 const Calculator = () => (
   <div className="calculator">
@@ -20,13 +20,7 @@ const Calculator = () => (
         <div className="zero">0</div>
         <div>.</div>
       </div>
-      <div className="operators">
-        <div>+</div>
-        <div>x</div>
-        <div>-</div>
-        <div>+</div>
-        <div>=</div>
-      </div>
+      <Operators />
     </div>
   </div>
 );
