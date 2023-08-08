@@ -35,8 +35,8 @@ html {
   text-align: center;
 }
 
-.numbers div,
-.operators div {
+.numbOperation button {
+  width: 100%;
   padding: 15px;
   border: 0.5px solid rgb(207, 203, 203);
   cursor: pointer;
@@ -48,9 +48,12 @@ html {
 }
 
 .operators {
-  background-color: rgb(255, 68, 0);
   text-align: center;
   width: 20%;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.operators button {
+  background-color: rgb(255, 68, 0);
 }

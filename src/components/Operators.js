@@ -1,10 +1,11 @@
-const Operators = () => (
+// eslint-disable-next-line react/prop-types
+const Operators = ({ Click }) => (
   <div className="operators">
-    <div>+</div>
-    <div>x</div>
-    <div>-</div>
-    <div>+</div>
-    <div>=</div>
+    <div><button type="button" onClick={() => Click('+')}>+</button></div>
+    <div><button type="button" onClick={() => Click('x')}>x</button></div>
+    <div><button type="button" onClick={() => Click('-')}>-</button></div>
+    <div><button type="button" onClick={() => Click('/')}>/</button></div>
+    <div><button type="button" onClick={() => Click('=')}>=</button></div>
   </div>
 );
 
