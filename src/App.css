@@ -4,6 +4,22 @@ html {
   margin: 0;
 }
 
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.Quote {
+  max-width: 50%;
+}
+
+span {
+  color: red;
+  font-size: 1.2rem;
+}
+
 .calculator {
   width: 40%;
   margin: 100px auto;
