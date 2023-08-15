@@ -30,7 +30,7 @@ const Quote = () => {
 
   if (isLoading) {
     return (
-      <div>Loading....</div>
+      <div className="Quote">Loading....</div>
     );
   }
   if (hasError) {

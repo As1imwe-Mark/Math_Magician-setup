@@ -2,17 +2,14 @@ html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-.App {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Quote {
   max-width: 50%;
+  margin: 100px auto;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 span {
@@ -20,9 +17,15 @@ span {
   font-size: 1.2rem;
 }
 
-.calculator {
-  width: 40%;
+.Calculator {
+  display: flex;
+  width: 95%;
   margin: 100px auto;
+  justify-content: space-between;
+}
+
+.calculator {
+  width: 50%;
   border: 0.5px solid wheat;
   box-shadow: 1px 1px 3px 1px;
 }
@@ -72,4 +75,51 @@ span {
 
 .operators button {
   background-color: rgb(255, 68, 0);
+}
+
+.home {
+  width: 95%;
+  margin: 80px auto;
+  font-size: 17px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px 2px;
+  padding: 0 5px;
+  background-color: antiquewhite;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  margin-right: 4%;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.link {
+  color: rgb(9, 73, 126);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(13, 97, 97);
+}
+
+.divider {
+  height: 35px;
+  border: 1px solid;
+}
+
+.App {
+  background-color: rgb(236, 231, 231);
+  height: 100vh;
 }
