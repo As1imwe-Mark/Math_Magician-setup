@@ -13,26 +13,31 @@ const Calculator = () => {
     setCalculatorState(calculate(calculatorState, buttonName));
   };
   return (
-    <section className="calculator">
-      <div className="display">{calculatorState.next || calculatorState.total || '0'}</div>
-      <div className="numbOperation">
-        <div className="numbers">
-          <div><button type="button" onClick={() => { handleOperations('AC'); }}>AC</button></div>
-          <div><button type="button" onClick={() => { handleOperations('+/-'); }}>+/-</button></div>
-          <div><button type="button" onClick={() => { handleOperations('%'); }}>%</button></div>
-          <div><button type="button" onClick={() => { handleOperations('7'); }}>7</button></div>
-          <div><button type="button" onClick={() => { handleOperations('8'); }}>8</button></div>
-          <div><button type="button" onClick={() => { handleOperations('9'); }}>9</button></div>
-          <div><button type="button" onClick={() => { handleOperations('4'); }}>4</button></div>
-          <div><button type="button" onClick={() => { handleOperations('5'); }}>5</button></div>
-          <div><button type="button" onClick={() => { handleOperations('6'); }}>6</button></div>
-          <div><button type="button" onClick={() => { handleOperations('1'); }}>1</button></div>
-          <div><button type="button" onClick={() => { handleOperations('2'); }}>2</button></div>
-          <div><button type="button" onClick={() => { handleOperations('3'); }}>3</button></div>
-          <div className="zero"><button type="button" onClick={() => { handleOperations('0'); }}>0</button></div>
-          <div><button type="button" onClick={() => { handleOperations('.'); }}>.</button></div>
+    <section className="Calculator">
+      <h2>
+        {'Let\'s Do some Maths!'}
+      </h2>
+      <div className="calculator">
+        <div className="display">{calculatorState.next || calculatorState.total || '0'}</div>
+        <div className="numbOperation">
+          <div className="numbers">
+            <div><button type="button" onClick={() => { handleOperations('AC'); }}>AC</button></div>
+            <div><button type="button" onClick={() => { handleOperations('+/-'); }}>+/-</button></div>
+            <div><button type="button" onClick={() => { handleOperations('%'); }}>%</button></div>
+            <div><button type="button" onClick={() => { handleOperations('7'); }}>7</button></div>
+            <div><button type="button" onClick={() => { handleOperations('8'); }}>8</button></div>
+            <div><button type="button" onClick={() => { handleOperations('9'); }}>9</button></div>
+            <div><button type="button" onClick={() => { handleOperations('4'); }}>4</button></div>
+            <div><button type="button" onClick={() => { handleOperations('5'); }}>5</button></div>
+            <div><button type="button" onClick={() => { handleOperations('6'); }}>6</button></div>
+            <div><button type="button" onClick={() => { handleOperations('1'); }}>1</button></div>
+            <div><button type="button" onClick={() => { handleOperations('2'); }}>2</button></div>
+            <div><button type="button" onClick={() => { handleOperations('3'); }}>3</button></div>
+            <div className="zero"><button type="button" onClick={() => { handleOperations('0'); }}>0</button></div>
+            <div><button type="button" onClick={() => { handleOperations('.'); }}>.</button></div>
+          </div>
+          <Operators Click={handleOperations} />
         </div>
-        <Operators Click={handleOperations} />
       </div>
     </section>
   );
