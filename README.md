@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
-# 📖 [math_magician project](#math_magician project)
+# 📖 [math_magician project](math_magician project)
 
-📗 Table of Contents
+ ## 📗 <a name="table of content"> Table of Content </a>
 
 📖 [About the Project](#about-the-project)
 
@@ -39,7 +39,7 @@
 
 <br><br>
 
-## 📖 math_magician project](#math_magician project)
+## 📖 math_magician project](math_magician project)
 ### 📖 <a name="about-the-project">Description </a>
 
 The [math_magician project]() This is a Microverse project under the react module 3 block 1. It is a single page Application that contains a calculator that can do simple Math operations plus a random Math quotations from an external API.
@@ -74,11 +74,6 @@ Project-feature6: Application deploy
 
 [`Back to top`](#readme-top)
 
-## 🚀 <a name="live-demo"> Live Demo </a>
-
-You can access the math_magician at this link below.
-
-coming soon
 
 [`Back to top`](#readme-top)
 
@@ -113,7 +108,7 @@ run npx json-server -p 3500 -w data/db.json
 
 [`Back to top`](#readme-top)
 
-###<a name="usage">Usage</a>
+### <a name="usage">Usage</a>
 To run the math_magician application, execute the following command: Open the project in code editor and run the project using npm start.
 
 [`Back to top`](#readme-top)
