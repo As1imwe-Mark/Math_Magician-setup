@@ -74,6 +74,9 @@ Project-feature6: Application deploy
 
 [`Back to top`](#readme-top)
 
+## 🚀 <a name="live-demo"> Live Demo </a>
+
+You can preview the Math_magician project at this link:  https://math-magician-wg1s.onrender.com/
 
 [`Back to top`](#readme-top)
 
